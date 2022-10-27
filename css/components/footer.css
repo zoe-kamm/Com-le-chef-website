@@ -1,0 +1,51 @@
+footer{
+	margin-right: 0px;
+	border-top: 1px solid black;
+	color: black;
+	padding: 30px 100px;
+	justify-content: space-around;
+	background-color: ghostwhite;
+}
+
+footer h1 {
+	font-family: 'Lora sans-serif;';
+	border-bottom: 1px solid black;
+	width: 18%;
+	padding-bottom: 4px;
+}
+
+footer .services {
+	margin-top: -10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+footer .services .service{
+	margin-right: 30px;
+	padding:10px;
+	object-position: center;
+	justify-content: space-around;
+}
+
+footer .services .service p{
+	max-width: 300px;
+}
+
+footer #contact{
+	color: rgb(181, 181, 181);
+}
+
+footer img {
+	width: 120px;
+	height: 70px;
+}
+
+@media screen and (max-width: 800px){
+	.footer{
+	padding : 30px
+	}
+	footer img {
+	display: none;
+	}
+}

@@ -1,0 +1,17 @@
+.container{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@media (max-width:  800px) {
+	.container{
+		width: 500px;
+	}
+}
+
+@media(max-width:600px) {
+	.container {
+		width: 300px;
+	}
+}

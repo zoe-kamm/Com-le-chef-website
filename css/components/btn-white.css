@@ -1,0 +1,13 @@
+.btn-white {
+	background-color: rgba(225, 225, 225, 0.8);
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 30px;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+	align-items: center;
+	font-family: Cambria;
+}

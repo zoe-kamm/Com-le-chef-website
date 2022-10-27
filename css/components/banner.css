@@ -1,0 +1,37 @@
+.banner {
+	background-image:linear-gradient(-220deg,rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 60%),url(../../images/Christmas.jpg);
+	padding: 160px;
+	margin: 0px;
+	color: white;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1{
+		text-align: center;
+		font-size: 72px;
+		font-family: Calisto MT;
+}
+
+.banner p {
+		text-align: center;
+		font-size: 25px;
+		font-family: Cambria;
+		margin-bottom: 50px;
+}
+
+@media screen(max-width: 680px){
+
+	.banner h1{
+		text-align: center;
+		font-size: 72px;
+		font-family: Calisto MT;
+	}
+
+	.banner p {
+		text-align: center;
+		font-size: 25px;
+		font-family: Cambria;
+		margin-bottom: 50px;
+	}
+}
